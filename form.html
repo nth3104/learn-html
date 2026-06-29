@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력폼 요소 학습</title>
+  </head>
+  <body>
+    <!-- 다양한 입력 요소 -->
+    <h3>로그인 영역</h3>
+    <form>
+      ID:
+      <input
+        type="text"
+        name="user-id"
+        required
+        placeholder="ID를 입력하세요"
+      />
+      <br />
+      PassWord:
+      <input
+        type="password"
+        name="user-password"
+        required
+        placeholder="암호를 입력하세요"
+      />
+      <!-- 제출 버튼 -->
+      <div>
+        <!-- <input type="submit" /> -->
+        <button type="submit">로그인</button>
+      </div>
+
+      <h3>그 외 입력 요소</h3>
+      <!-- 체크박스 -->
+      <h4>취미 선택</h4>
+      <input id="hobby1" type="checkbox" name="hobby" value="hobby1" checked />
+      <label for="hobby1">축구</label>
+      <input id="hobby2" type="checkbox" name="hobby" value="hobby2" />
+      <label for="hobby2">야구</label>
+      <input id="hobby3" type="checkbox" name="hobby" value="hobby3" />
+      <label for="hobby3">농구</label>
+      <input id="hobby4" type="checkbox" name="hobby" value="hobby4" />
+      <label for="hobby4">족구</label>
+
+      <!-- 라디오버튼 -->
+      <h4>성별</h4>
+      <input id="male" type="radio" name="gender" value="male" checked />
+      <label for="male">남성</label>
+      <input id="female" type="radio" name="gender" value="female" />
+      <label for="female">여성</label>
+
+      <!-- 드롭다운 -->
+      <h4>음식 선택</h4>
+      <label for="food">음식 선택</label>
+      <select name="" id="food">
+        <option value="pizza">피자</option>
+        <option value="hamberger">햄버거</option>
+        <option value="pasta">파스타</option>
+      </select>
+    </form>
+  </body>
+</html>
