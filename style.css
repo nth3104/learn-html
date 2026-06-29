@@ -1,0 +1,36 @@
+/* @import url("reset.css"); */
+
+img{
+  width: 300px;
+}
+
+/* div{
+  background-color: aqua;
+} */
+
+#list-title {
+  border: solid 1px brown;
+  background-color: beige;
+}
+
+.item {
+  color:blueviolet;
+}
+
+h1.main-title {
+background: #69cadb;
+background: linear-gradient(90deg, rgba(105, 202, 219, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.btn{
+  background: #faa6ff;
+  border: none;
+  cursor: pointer;
+  transition: 1s all;
+  padding: 8px 4px;
+  border-radius: 16px;
+}
+/* 버튼에 마우스를 올렸을 때의 스타일 */
+.btn:hover { 
+  background: #D9C93F;
+}

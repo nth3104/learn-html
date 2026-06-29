@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>태호의 웹페이지</title>
+    <!-- 외부 스타일시트 -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     안녕하세요, 테스트 중입니다.
@@ -17,7 +19,7 @@
     <!-- 1. 텍스트 관련 영역 -->
     <div>
       <!-- 제목태그 -->
-      <h1>h1 태그 입니다.</h1>
+      <h1 class="main-title">h1 태그 입니다.</h1>
       <h2>h2 태그 입니다.</h2>
       <h3>h3 태그 입니다.</h3>
       <h4>h4 태그 입니다.</h4>
@@ -70,13 +72,12 @@
       </div>
     </div>
     <!-- 3. 리스트 관련 영역 -->
-    <div style="background-color: aqua">
-      <h3>리스트</h3>
+      <h3 id="list-title">리스트</h3>
       <h5>순서가 없는 리스트 (AI)</h5>
       <ul>
-        <li>Chat GPT</li>
-        <li>Claude</li>
-        <li>Gemini</li>
+        <li class="item">Chat GPT</li>
+        <li class="item">Claude</li>
+        <li class="item">Gemini</li>
       </ul>
       <h5>순서가 있는 리스트</h5>
       <ol>
@@ -84,6 +85,9 @@
         <li>list2</li>
         <li>list3</li>
       </ol>
+      <button type="button" class="btn">
+        눌러주세요
+      </button>
     </div>
   </body>
 </html>
