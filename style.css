@@ -29,6 +29,8 @@ background: linear-gradient(90deg, rgba(105, 202, 219, 1) 0%, rgba(87, 199, 133,
   transition: 1s all;
   padding: 8px 4px;
   border-radius: 16px;
+  border: 4px solid red;
+  margin: 20px;
 }
 /* 버튼에 마우스를 올렸을 때의 스타일 */
 .btn:hover { 
